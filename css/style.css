@@ -1,0 +1,23 @@
+body {
+    background-image: url("../images/globe-3441673.jpg");
+    background-size: cover;
+}
+
+a.imageLien {
+    position: absolute;
+    color: red; 
+}
+
+a img:hover {
+    border: 2px red solid;
+}
+
+a img {
+    width: 100px;
+    height: 100px;
+}
+
+#lien1 {
+    top: 20%;
+    left: 20%;
+}
