@@ -1,0 +1,30 @@
+.page{
+        width: 600px;
+        height: 849px;
+        background-image: url("../Images/ckground.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 1rem;
+    }
+    
+    .page h2{
+        text-align: center;
+    }
+    
+    .contentPage{
+        
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    
+    #book{
+        width: 1250px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+    
+    

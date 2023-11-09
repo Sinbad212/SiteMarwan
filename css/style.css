@@ -1,23 +1,67 @@
-body {
-    background-image: url("../images/globe-3441673.jpg");
-    background-size: cover;
+
+video{
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    left: 0;
 }
 
-a.imageLien {
+a.imageLien, a.tellien, a.rapportlien, a.interretour {
     position: absolute;
-    color: red; 
+    color: rgb(255, 255, 255); 
 }
 
-a img:hover {
-    border: 2px red solid;
+#lien2 img{
+    transform: scale(1.2);
 }
 
-a img {
-    width: 100px;
-    height: 100px;
+#lien2{
+   top: 35%;
+    left: 46%;
 }
 
 #lien1 {
-    top: 20%;
-    left: 20%;
+    top: 35%;
+    left:26%;
 }
+#lien3 {
+    top: 35%;
+    left: 66%;
+}
+#interfle img{
+    transform: scale(0.8);
+    top: 20px;
+    
+    left: 20px;
+}
+a{
+    border: 2px transparent solid;
+}
+
+a:hover {
+    border: 2px rgb(255, 255, 255) solid;
+}
+
+a img {
+    width: 140px;
+    height: 140px;
+}
+
+
+
+ h1{
+        text-align: center;
+        font-size: 450%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: underline;
+    }
+   
+
+ 
+
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+
